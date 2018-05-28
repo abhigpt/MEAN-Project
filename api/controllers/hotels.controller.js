@@ -14,6 +14,12 @@ hotelController.getOneHotel = function(req,res){
     .status(200)
     .json(thisHotel);
 }
+hotelController.addOneHotel = function(req,res){
+  console.log("Inside addOneHotel by params ",req.body);
+  res
+    .status(200)
+    .json(req.body);
+}
 
 
 

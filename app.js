@@ -1,9 +1,11 @@
 var express = require('express');
 var path    = require('path');
 var app = express();
-var routes = require('./api/routes')
+var routes = require('./api/routes');
+var bodyParser = require('body-parser');
 app.set('port',3005);
 app.use(express.static(path.join(__dirname,'public')));
+app.use(bodyParser.urlencoded({extended : false}));
 // app.get('/',function(req,res){
 //   console.log("get url hit");
 //   res

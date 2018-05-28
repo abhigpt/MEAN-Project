@@ -10,4 +10,8 @@ router
   .route('/hotel/:hotelId')
   .get(hotelController.getOneHotel);
 
+router
+  .route('/hotel/new')
+  .post(hotelController.addOneHotel);
+
   module.exports = router;
