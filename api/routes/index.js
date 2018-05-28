@@ -6,4 +6,8 @@ router
   .route('/hotel')
   .get(hotelController.getHotel);
 
+router
+  .route('/hotel/:hotelId')
+  .get(hotelController.getOneHotel);
+
   module.exports = router;
