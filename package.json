@@ -1,0 +1,27 @@
+{
+  "name": "mean-project",
+  "version": "1.0.0",
+  "description": "MEAN stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhigpt/MEAN-Project.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "abhishek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhigpt/MEAN-Project/issues"
+  },
+  "homepage": "https://github.com/abhigpt/MEAN-Project#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
+  }
+}
