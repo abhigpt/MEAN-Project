@@ -1,7 +1,7 @@
 var express = require('express');
 var path    = require('path');
 var app = express();
-var routes = require('./routes')
+var routes = require('./api/routes')
 app.set('port',3005);
 app.use(express.static(path.join(__dirname,'public')));
 // app.get('/',function(req,res){
